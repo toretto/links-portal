@@ -1,0 +1,27 @@
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+}
+div.side-bar {
+    background-color: #33005b;
+    height:100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left:0;
+}
+
+div.navbar {
+    position:fixed;
+}
+
+/* Button Bar */
+
+div.button-bar {
+    padding:0.5rem;
+    border-radius: 5px;
+    background: #454347;
+}
