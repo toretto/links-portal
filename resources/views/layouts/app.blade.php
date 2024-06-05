@@ -91,6 +91,7 @@
                @endguest
         @auth
             <a href="{{url('account')}}" class="btn btn-outline-dark-me-2">My Account</a>
+        @endauth
               </div>
     </div>
   </nav>
