@@ -62,7 +62,7 @@
       </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li><a href="https://laravel-starter.sigiharja.dev" class="nav-link"> Home</a></li>
+        <li><a href="{{url('/')}}" class="nav-link"> Home</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Items</a>
             <ul class="dropdown-menu">
@@ -86,8 +86,11 @@
     </div>
   </div>
       <div class="text-end">
+              @guest
                 <a href="{{url('login')}}" class="btn btn-outline-dark me-2">Login</a>
-                  
+               @endguest
+        @auth
+            <a href="{{url('account')}}" class="btn btn-outline-dark-me-2">My Account</a>
               </div>
     </div>
   </nav>
